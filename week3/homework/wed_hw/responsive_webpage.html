@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+        }
+        a:hover{
+            color: rgb(14, 22, 22);
+        }
+        li:hover{
+            background-color: cadetblue;
+            
+            padding: 5px;
+        }
+        li{
+            list-style: none;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(42, 46, 47);
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 50px;
+        }
+        ul{
+            margin: 0px;
+        }
+        .left{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            background-color:rgb(134, 151, 158);
+            height:100%;
+            left:0%;
+            right:80%;
+            top:3.7%;
+            bottom:10%;
+        }
+        .center{
+            position:absolute;
+            background-color:aliceblue;
+            right:20%;
+            left:20%;
+            top:3.7%;
+            bottom:10%;
+            height: 100%;
+            padding:10px;
+        }
+        .right{
+            position: absolute;
+            background-color: rgb(134, 151, 158);
+            right:0%;
+            left:80%;
+            height: 100%;
+            top:3.7%;
+            bottom:10%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body class="body1">       
+
+    <nav>
+        <ul class="container">
+            <li><a href="#">Company Name</a></li>
+        </ul>
+
+        <ul class="container">
+            <li><a chref="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="left">Left Sidebar</div>
+    <div class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit est illo aliquam modi accusantium perspiciatis amet cum esse deserunt voluptatibus rem, doloribus aliquid, velit consectetur, ipsum sequi a eaque!</div>
+    <div class="right">Right Sidebar</div>
+    
+    
+
+</body>
+
+</html>

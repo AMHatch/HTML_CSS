@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid black
+}
+body{
+    margin: 0;
+    background-color:darkgrey;
+}
+.container{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 80vh;
+    height: 90vh;
+}
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.flexContainerRow{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+.flexContainerColumn{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.flex5{
+    flex: 5;
+}

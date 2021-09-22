@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Image</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+
+        .container{
+            display: flex;
+            background-image:url("comic.jpeg");
+            background-size: contain;
+            width: 725px;
+            height: 725px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        
+        .button{display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20 px;
+            color: black;
+            background-color: lightskyblue
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <button class="button">Push</button>
+    </div>
+    
+    
+</body>
+</html>
