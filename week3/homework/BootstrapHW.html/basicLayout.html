@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Basic Layout</title>
+    <style>
+        .font{
+            font-size: 25px;
+        }
+        .font2{
+            font-size: 35px;
+        }
+        .bottomborder{
+            border-bottom: 5px solid black;
+        }
+        .font1{
+            font-size: 55px;
+        }
+        .center{
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        .around{
+            justify-content: space-around;
+        }
+    
+        .border{
+            border: 5px solid black;
+        }
+        .tall{
+            height: 200px;
+        }
+        .list{
+            list-style:inside;
+        }
+        .padding{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="row center bottomborder" >
+        <div class="col-6 center font">
+            Our Company
+        </div>
+        <div class="col-5 center font around">
+            <a href="#">Home </a>
+            |
+            <a href="#">Products </a>
+            |   
+            <a href="#">Company </a>
+            |   
+            <a href="#">Blog </a>
+        </div>
+    </nav>
+
+    <div class="row center around font1 bottomborder tall">
+        We Are Awesome
+    </div>
+    <div class="row-3 center around font1 tall padding">
+        Awesomeness
+    </div>
+    <div class="row bottomborder center around padding">    
+        <div class="col-4">
+            <b>Boldeness 1</b>
+            <ul class="list" >
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <b>Boldeness 1</b>
+            <ul class="list" >
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <b>Boldeness 1</b>
+            <ul class="list" >
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row around center padding">
+        <div class="col-6">
+            <img src="comic.jpeg" height="400px" alt="comic">
+        </div>
+        <div class="col-6">
+            <img src="comic.jpeg" height="400px" alt="comic">
+        </div>
+    <div class="row around font bottomborder padding"> 
+        <div class="col-6">Awesome Comic 1</div>
+        <div class="col-6">Awesome Comic 2</div>
+    </div>
+    </div>
+    <div class="row center around font2 bottomborder tall">
+        Footer
+    </div>
+</div>
+
+</body>
+</html>
